@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Outline Maker" />
+        <Header title="My Outline Maker" />
         <p className="description">
           Click here to get started
     class HelloMessage extends React.Component {
