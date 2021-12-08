@@ -14,6 +14,20 @@ export default function Home() {
         <Header title="Outline Maker" />
         <p className="description">
           Click here to get started
+    class HelloMessage extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello {this.props.name}
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <HelloMessage name="Taylor" />,
+  document.getElementById('hello-example')
+);
         </p>
       </main>
 
